@@ -1,5 +1,5 @@
 
-# *Algorithm Visualizer*
+# **Algorithm Visualizer**
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F70000&width=435&lines=Welcome+to+Algorithm+Visualizer!;Let's+explore+algorithms+together!" alt="Typing SVG">
 </p>
@@ -20,12 +20,12 @@
 
 ---
 
-## *Introduction*
+## **Introduction**
 Algorithm Visualizer is an interactive online platform designed to help users understand and visualize various algorithms in action. It provides clear and engaging animations for complex algorithms, enabling learners, programmers, and computer science enthusiasts to explore and analyze algorithms step by step. Topics covered include sorting, searching, graph traversal, and more.
 
 ---
 
-## *Table of Contents*
+## **Table of Contents**
 
 - [Introduction](#introduction)
 - [Project Objective](#project-objective)
@@ -42,88 +42,88 @@ Algorithm Visualizer is an interactive online platform designed to help users un
 
 ---
 
-## *Project Objective*
+## **Project Objective**
 The primary goal of Algorithm Visualizer is to simplify the understanding of algorithms through:
-- *Visual Representations*: Step-by-step animations for clarity.
-- *Interactive Tools*: User-defined inputs for dynamic exploration.
-- *Collaboration and Community*: Engage with peers and experts to deepen your understanding.
+- ***Visual Representations***: Step-by-step animations for clarity.
+- ***Interactive Tools***: User-defined inputs for dynamic exploration.
+- ***Collaboration and Community***: Engage with peers and experts to deepen your understanding.
 
 ---
 
-## *Key Features*
+## **Key Features**
 
-### *1. Interactive Algorithm Visualizations*
+### **1. Interactive Algorithm Visualizations**
 - Real-time animations for algorithms, including:
   - Bubble Sort
   - Depth-First Search (DFS)
   - Breadth-First Search (BFS)
 - Customizable options for user-defined inputs.
 
-### *2. User-Centric Design*
+### **2. User-Centric Design**
 - *Secure Login System*: Powered by Node.js and bcrypt.
 - *Feedback Section*: Submit suggestions and view past feedback.
 - *Community Section*: Post questions, discuss algorithms, and interact with peers.
 
-### *3. Beginner-Friendly Resources*
+### **3. Beginner-Friendly Resources**
 - FAQs and resources tailored for newcomers.
 
-### *4. Real-Time Updates*
+### **4. Real-Time Updates**
 - Live community notifications using Socket.IO/WebSocket.
 
-### *5. Responsive UI*
+### **5. Responsive UI**
 - Styled with HTML, CSS, and ReactJS for a seamless experience.
 
 ---
 
-## *Target Users*
+## **Target Users**
 
-### *1. Students*
+### **1. Students**
 - Visual demonstrations to complement theoretical knowledge.
 
-### *2. Educators*
+### **2. Educators**
 - Teaching aid to demonstrate step-by-step algorithm processes.
 
-### *3. Competitive Programmers*
+### **3. Competitive Programmers**
 - Compare and visualize algorithms for refining problem-solving strategies.
 
 ---
 
-## *Tech Stack*
+## **Tech Stack**
 
-### *Frontend*
+### **Frontend**
 - *HTML*: Structure for interactive elements.
 - *CSS*: Styling and responsiveness. [Learn More](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - *JavaScript & ReactJS*: Animations and dynamic content rendering. [Learn More](https://reactjs.org/)
 - *ReactDOM*: For efficient updates and rendering.
 
-### *Backend*
+### **Backend**
 - *Node.js & Express*: Backend operations, including API endpoints and authentication. [Learn More](https://expressjs.com/)
 - *bcrypt*: Password security. [Learn More](https://www.npmjs.com/package/bcrypt)
 - *Socket.IO/WebSocket*: Real-time updates and communication. [Learn More](https://socket.io/)
 
-### *Database*
+### **Database**
 - *MySQL*: Manage user data, feedback, and discussions. [Learn More](https://dev.mysql.com/doc/)
 
 ---
 
-## *Project Workflow*
+## **Project Workflow**
 
-1. *Login Page*: Authenticate users for secure access.
-2. *Algorithms Section*: Explore interactive algorithm visualizations.
-3. *Feedback Section*: Submit and review platform suggestions.
-4. *Community Section*: Engage in discussions and receive live notifications.
+1. **Login Page**: Authenticate users for secure access.
+2. **Algorithms Section**: Explore interactive algorithm visualizations.
+3. **Feedback Section**: Submit and review platform suggestions.
+4. **Community Section**: Engage in discussions and receive live notifications.
 
 ---
 
-## *Development Goals*
+## **Development Goals**
 
-### *Primary Goals*
+### **Primary Goals**
 - Secure login system.
 - Interactive feedback and community sections.
 - Core algorithm visualizations with user input.
 - Responsive and seamless user experience.
 
-### *Secondary Goals*
+### **Secondary Goals**
 - Extend algorithm library.
 - Advanced features like real-time notifications.
 - Deploy on platforms like Netlify.
@@ -131,54 +131,77 @@ The primary goal of Algorithm Visualizer is to simplify the understanding of alg
 
 ---
 
-## *Impact*
+## **Impact**
 Algorithm Visualizer fosters a collaborative learning environment by offering a deeper understanding of algorithms. Its engaging design and robust features make it accessible to users at all levels, empowering learners, educators, and developers alike.
 
 ---
 
-## *Installation*
+## **Installation**
 
-### *Prerequisites*
+### **Prerequisites**
 Ensure the following are installed:
 
-- *Node.js (v16 or higher)*: [Download Here](https://nodejs.org)
-- *MySQL (v8 or higher)*: [Download Here](https://www.mysql.com/)
-- *Git*: [Download Here](https://git-scm.com/)
-- *VS Code*: [Download Here](https://code.visualstudio.com/)
+- **Node.js (v16 or higher)**: [Download Here](https://nodejs.org)
+- **MySQL (v8 or higher)**: [Download Here](https://www.mysql.com/)
+- **Git**: [Download Here](https://git-scm.com/)
+- **VS Code**: [Download Here](https://code.visualstudio.com/)
 
-### *Steps*
+### **Steps**
 
-1. *Clone the repository*:
-bash
-   git clone https://github.com/officiallyanee/algorithm-visualizer.git 
-   cd algorithm-visualizer
-
-
-2. *Install dependencies*:
-bash
-   npm install
+1. **Clone the repository**:
+```bash
+  git clone https://github.com/officiallyanee/algorithm-visualizer.git
+  
+  cd algorithm-visualizer
+  ```
 
 
-3. *Set up MySQL database*:
-   - Create a database: algorithm_visualizer.
-   - Import the SQL schema from /db/schema.sql.
-   - Update database credentials in config.js.
+2. **Install dependencies for Frontend**:
+```bash
+  cd frontend/main
+```
 
-4. *Start the server*:
-bash
+```bash
+  npm i
+```
+
+3. **Install dependencies for Backend**:
+```bash
+  cd server
+```
+
+```bash
+  npm i
+```
+
+4. **Set up MySQL database**:
+   - Create a database: **mysql**.
+   - Import the SQL schema from **/db/schema.sql**.
+   - Update database credentials in **config.js**.
+
+5. **Start the server**:
+For *BackEnd*:
+```bash
    npm start
+```
+For *FrontEnd*:
+```bash
+  npm run dev
+```
 
+6. **Access the app**:
 
-5. *Access the app*:
-Open http://localhost:3000 in your browser.
+- Open http://localhost:5173 in your browser for the frontend.
+- Open https://localhost:8081 in your browser for the backend.
+Run them simultaneuosly for the output to be shown.
 
 ---
 
-## *Usage*
+## **Usage**
 
-### *Example: Creating an API with Express*
+### **Example: Creating an API with Express**
 Simplifies routing and middleware:
-javascript
+```javascript
 const express = require('express');
 const app = express();
 
@@ -190,11 +213,11 @@ app.post('/api/login', (req, res) => {
 app.listen(3000, () => {
   console.log('Server running on http://localhost:3000');
 });
+```
 
-
-### *Querying MySQL*
+### **Querying MySQL**
 Manage user credentials, feedback, and discussions:
-javascript
+```javascript
 const mysql = require('mysql');
 const connection = mysql.createConnection({
   host: 'localhost',
@@ -207,11 +230,11 @@ connection.query('SELECT * FROM users', (err, results) => {
   if (err) throw err;
   console.log(results);
 });
+```
 
-
-### *Visualizing Bubble Sort*
+### **Visualizing Bubble Sort**
 Update the DOM to show array state changes during sorting:
-javascript
+```javascript
 function bubbleSort(array) {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length - i - 1; j++) {
@@ -223,28 +246,28 @@ function bubbleSort(array) {
     }
   }
 }
+```
 
-
-### *Real-Time Notifications*
+### **Real-Time Notifications**
 Notify users of new posts in the community section:
-javascript
+```javascript
 const socket = io();
 
 socket.on('newPost', (data) => {
   console.log(`New post added: ${data.title}`);
   // Update UI with new post
 });
-
+```
 
 ---
 
-## *Contributions*
+## **Contributions**
 
 We welcome contributions! Feel free to:
 - Submit a pull request.
 - Open issues for bugs or suggestions.
 
-### *Contact*
+### **Contact**
 <p align="center">
   <a href="mailto:anee_j@ma.iitr.ac.in"><img src="https://img.shields.io/badge/Email-anee_j@ma.iitr.ac.in-red?style=for-the-badge&logo=gmail"></a>
   <a href="https://github.com/officiallyanee"><img src="https://img.shields.io/badge/GitHub-@officiallyanee-blue?style=for-the-badge&logo=github"></a>
@@ -252,10 +275,10 @@ We welcome contributions! Feel free to:
 
 ---
 
-## *License*
+## **License**
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-text
+```text
 MIT License
 
 Copyright (c) 2025 Anee Jain
@@ -265,7 +288,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+```
 
 ---
 
@@ -275,26 +298,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-## *Additional Features*
+## **Additional Features**
 
-### *Algorithm Comparison Mode*
+### **Algorithm Comparison Mode**
 - Compare the performance of two algorithms side by side in real-time.
 - Displays key metrics like time complexity and memory usage with animated graphs.
 
-### *Interactive Learning Challenges*
+### **Interactive Learning Challenges**
 - Solve algorithm puzzles designed to test your knowledge.
 - Earn badges for completing challenges and mastering specific algorithms.
 
-### *Dark Mode Support*
+### **Dark Mode Support**
 - Toggle between light and dark themes for a comfortable learning experience at any time of the day.
 
 ---
 
-## *New Animations and Visual Elements*
+## **New Animations and Visual Elements**
 
-### *1. Sorting Algorithm Animations*
+### **1. Sorting Algorithm Animations**
 Each sorting step is visualized with unique color-coded bars:
-javascript
+```javascript
 function visualizeSorting(array) {
   array.forEach((value, index) => {
     setTimeout(() => {
@@ -305,28 +328,28 @@ function visualizeSorting(array) {
     }, index * 500);
   });
 }
+```
 
-
-### *2. Graph Algorithm Animations*
+### **2. Graph Algorithm Animations**
 Highlight visited nodes during DFS and BFS traversals:
-javascript
+```javascript
 function highlightNode(nodeId) {
   const node = document.getElementById(nodeId);
   node.style.backgroundColor = 'yellow';
   setTimeout(() => (node.style.backgroundColor = 'green'), 500);
 }
+```
 
-
-### *3. Animated Loading States*
+### **3. Animated Loading States**
 A sleek spinner displayed during loading processes:
-html
+```html
 <div class="spinner">
   <div></div>
   <div></div>
   <div></div>
 </div>
-
-css
+```
+```css
 .spinner {
   display: inline-block;
   position: relative;
@@ -362,20 +385,20 @@ css
     transform: rotate(360deg);
   }
 }
-
+```
 
 ---
 
-## *Upcoming Features*
+## **Upcoming Features**
 
-### *1. Dynamic Algorithm Visualizer API*
+### **1. Dynamic Algorithm Visualizer API**
 - Expose an API endpoint to allow third-party integrations.
 - Enable developers to embed algorithm visualizations into their own applications.
 
-### *2. Mobile Application*
+### **2. Mobile Application**
 - Extend the platform to iOS and Android devices using React Native.
 
-### *3. AI-Powered Algorithm Recommendations*
+### **3. AI-Powered Algorithm Recommendations**
 - Suggest algorithms based on user activity and learning history.
 
 ---

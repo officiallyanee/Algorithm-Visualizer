@@ -41,7 +41,6 @@ CREATE TABLE `bubblesort` (
 --
 
 INSERT INTO `bubblesort` (`id`, `room`, `author`, `message`, `date`, `time`) VALUES
-(0, 'bubblesort', 'dummy1', 'doubtt', '2025-01-06', '00:43:00'),
 (41868943, 'bubblesort', 'user', 'doubt', '2025-01-09', '05:06:00'),
 (50307969, 'mergesort', 'user', 'another doubt', '2025-01-13', '19:39:00'),
 (62548656, 'bubblesort', 'user', 'doubtt', '2025-01-11', '12:04:00'),

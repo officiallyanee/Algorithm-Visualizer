@@ -55,12 +55,12 @@ The primary goal of Algorithm Visualizer is to simplify the understanding of alg
 ### **1. Interactive Algorithm Visualizations**
 - Real-time animations for algorithms, including:
   - Bubble Sort
-  - Depth-First Search (DFS)
-  - Breadth-First Search (BFS)
+  - Selection Sort
+  - Quick Sort
 - Customizable options for user-defined inputs.
 
 ### **2. User-Centric Design**
-- *Secure Login System*: Powered by Node.js and bcrypt.
+- *Login System*: Powered by Node.js.
 - *Feedback Section*: Submit suggestions and view past feedback.
 - *Community Section*: Post questions, discuss algorithms, and interact with peers.
 
@@ -68,7 +68,7 @@ The primary goal of Algorithm Visualizer is to simplify the understanding of alg
 - FAQs and resources tailored for newcomers.
 
 ### **4. Real-Time Updates**
-- Live community notifications using Socket.IO/WebSocket.
+- Live chat using Socket.IO/WebSocket.
 
 ### **5. Responsive UI**
 - Styled with HTML, CSS, and ReactJS for a seamless experience.
@@ -111,7 +111,7 @@ The primary goal of Algorithm Visualizer is to simplify the understanding of alg
 1. **Login Page**: Authenticate users for secure access.
 2. **Algorithms Section**: Explore interactive algorithm visualizations.
 3. **Feedback Section**: Submit and review platform suggestions.
-4. **Community Section**: Engage in discussions and receive live notifications.
+4. **Community Section**: Engage in discussions and receive live updates.
 
 ---
 
@@ -248,16 +248,7 @@ function bubbleSort(array) {
 }
 ```
 
-### **Real-Time Notifications**
-Notify users of new posts in the community section:
-```javascript
-const socket = io();
 
-socket.on('newPost', (data) => {
-  console.log(`New post added: ${data.title}`);
-  // Update UI with new post
-});
-```
 
 ---
 

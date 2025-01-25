@@ -6,6 +6,7 @@ import Acc from '../HomePage/AccPage'
 import Main from '../HomePage/HomePage'
 import FeedbackForm from '../HomePage/Feedback'
 import SortingVisualizer from '../SortingVisualizer/SortingVisualizer'
+import QuickSort from '../SortingVisualizer/QuickSort'
 import MergeSort from '../SortingVisualizer/MergeSort'
 import { UserProvider } from './UserContext'
 
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/selectionsort" element={<MergeSort/>}/>
                     <Route path="/acc" element={<Acc/>}/>
                     <Route path="/feedback" element={<FeedbackForm/>}/>
+                    <Route path="/quicksort" element={<QuickSort/>}/>
                 </Routes>
             </BrowserRouter>
         </UserProvider>

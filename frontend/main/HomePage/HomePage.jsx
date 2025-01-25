@@ -18,7 +18,15 @@ const algorithmInfo = {
     title: "Quick Sort Algorithm",
     description: "Quick Sort is an efficient, in-place sorting algorithm that uses a divide-and-conquer strategy to sort elements.",
     complexity: { time: "O(n log n)", space: "O(log n)" },
-    learnMoreUrl: "https://en.wikipedia.org/wiki/Quicksort"
+    learnMoreUrl: "https://en.wikipedia.org/wiki/Quicksort",
+    navlink:"/quicksort"
+  }, 
+  selection: {
+    title: "Selection Sort Algorithm",
+    description: "Selection Sort is a comparison-based sorting algorithm. It sorts an array by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element",
+    complexity: { time: "O(n2)", space: "O(1)" },
+    learnMoreUrl: "https://www.geeksforgeeks.org/selection-sort-algorithm-2/",
+    navlink:"/selectionsort"
   },
   merge: {
     title: "Merge Sort Algorithm",
@@ -33,6 +41,7 @@ const algorithmSections = [
     title: "Sorting Algorithms",
     algorithms: [
       { key: "bubble", title: "Bubble Sort", description: "Visualize bubble sort algorithm in action" },
+      { key: "selection", title: "Selection Sort", description: "Visualize selection sort algorithm in action" },
       { key: "quick", title: "Quick Sort", description: "Visualize quick sort algorithm in action" },
       { key: "merge", title: "Merge Sort", description: "Visualize merge sort algorithm in action" },
       { key: "insertion", title: "Insertion Sort", description: "Visualize insertion sort algorithm in action" }

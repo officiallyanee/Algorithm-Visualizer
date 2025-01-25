@@ -256,6 +256,7 @@ function bubbleSort(array) {
 https://drive.google.com/file/d/1gbSMNuX7TQWNJU2ni_YBN1dIxEmG5nKn/view?usp=drive_link
 
 ### **Image**
+Dark Mode
 ![HomePageDark](https://github.com/user-attachments/assets/635ca29d-11e9-4a09-8dce-bf7f8a0bf057)
 
 ---

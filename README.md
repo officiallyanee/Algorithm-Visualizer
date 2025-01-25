@@ -37,8 +37,10 @@ Algorithm Visualizer is an interactive online platform designed to help users un
 - [Impact](#impact)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo Photos and Videos](#demo-photos-and-videos)
 - [Contributions](#contributions)
 - [License](#license)
+  
 
 ---
 
@@ -248,7 +250,13 @@ function bubbleSort(array) {
 }
 ```
 
+## **Demo Photos and Videos**
 
+### **Video Link**
+https://drive.google.com/file/d/1gbSMNuX7TQWNJU2ni_YBN1dIxEmG5nKn/view?usp=drive_link
+
+##**Image**
+#![HomePageDark](https://github.com/user-attachments/assets/635ca29d-11e9-4a09-8dce-bf7f8a0bf057)
 
 ---
 

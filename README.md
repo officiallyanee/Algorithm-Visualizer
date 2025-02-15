@@ -255,46 +255,24 @@ function bubbleSort(array) {
 ### **Video Link**
 https://drive.google.com/file/d/1gbSMNuX7TQWNJU2ni_YBN1dIxEmG5nKn/view?usp=drive_link
 
-### **Image**
-Dark Mode
-![HomePageDark](https://github.com/user-attachments/assets/635ca29d-11e9-4a09-8dce-bf7f8a0bf057)
+## **Image**
 
----
+### Project Screenshots Documentation
 
-## **Contributions**
+| Description | Screenshot |
+|------------|------------|
+| **Dark Mode Home Interface** <br><br> The homepage in dark mode, featuring a sleek sidebar and a list of various algorithms available for visualization. | ![HomePageDark](https://github.com/user-attachments/assets/635ca29d-11e9-4a09-8dce-bf7f8a0bf057) |
+| **Light Mode Home Interface** <br><br> The homepage in light mode, with the same intuitive layout, sidebar, and algorithm selection as the dark mode version. | ![Message Preview](https://github.com/user-attachments/assets/155d9ed5-1207-4fc1-bd1a-bf924ba21879) |
+| **Binary Search Tree** <br><br> A visualization of the Binary Search Tree, color-coded for better clarity and understanding of the structure and operations. | ![Dashboard](https://github.com/user-attachments/assets/fcd395db-8ff6-4bb3-9c5f-4db31606c7ce) |
+| **Sorting Algo Visualization** <br><br> A real-time visualization of sorting algorithms, demonstrating how elements are arranged dynamically during execution. | ![Chat Interface](https://github.com/user-attachments/assets/6812180d-a699-4afc-b827-535772ee5491) |
+| **Community & Replies** <br><br> A dedicated community section where users can discuss algorithms, ask questions, and reply to posts in an interactive environment. | <img src="https://github.com/user-attachments/assets/971bc7b4-a73b-4e4e-a0e5-d54cbe9737d1" width="200"/> |
+| **LogIn & SignUp** <br><br> The login and signup interface, providing users with a seamless authentication process to access their accounts. | ![Profile View](https://github.com/user-attachments/assets/1af743e4-03ef-43ef-a7a7-b91d7dd19d51) |
+| **Accounts** <br><br> The account management section, allowing users to configure their profiles, update settings, and manage preferences. | ![Notification Center](https://github.com/user-attachments/assets/820d3240-8a64-47ed-b18a-f9346af9d1e9) |
+| **Edit Account Information** <br><br> A user-friendly interface for updating personal details, changing passwords, and modifying account settings. | ![Analytics Dashboard](https://github.com/user-attachments/assets/faf5f6f1-6e71-45f3-b96d-32e00da851c1) |
+| **Feedback** <br><br> A feedback submission interface where users can provide insights, report issues, and suggest improvements for the platform. | ![Status Monitor](https://github.com/user-attachments/assets/b4937342-542d-457f-8072-9eafc0619484) |
 
-We welcome contributions! Feel free to:
-- Submit a pull request.
-- Open issues for bugs or suggestions.
 
-### **Contact**
-<p align="center">
-  <a href="mailto:anee_j@ma.iitr.ac.in"><img src="https://img.shields.io/badge/Email-anee_j@ma.iitr.ac.in-red?style=for-the-badge&logo=gmail"></a>
-  <a href="https://github.com/officiallyanee"><img src="https://img.shields.io/badge/GitHub-@officiallyanee-blue?style=for-the-badge&logo=github"></a>
-</p>
 
----
-
-## **License**
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-```text
-MIT License
-
-Copyright (c) 2025 Anee Jain
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=%2376C7C0&size=20&lines=Empowering+Algorithm+Exploration;Building+Community+One+Step+at+a+Time;Continuing+From+Line+271" alt="Typing SVG">
-</p>
 
 ---
 
@@ -358,6 +336,45 @@ function highlightNode(nodeId) {
 
 ---
 
+
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=%23FF5733&size=20&lines=Stay+Tuned+for+More+Updates!;Your+Feedback+Matters!;Let%27s+Visualize+Together!" alt="Typing SVG">
+</p>
+
+---
+
+## **Contributions**
+
+We welcome contributions! Feel free to:
+- Submit a pull request.
+- Open issues for bugs or suggestions.
+
+### **Contact**
+<p align="center">
+  <a href="mailto:anee_j@ma.iitr.ac.in"><img src="https://img.shields.io/badge/Email-anee_j@ma.iitr.ac.in-red?style=for-the-badge&logo=gmail"></a>
+  <a href="https://github.com/officiallyanee"><img src="https://img.shields.io/badge/GitHub-@officiallyanee-blue?style=for-the-badge&logo=github"></a>
+</p>
+
+---
+
+## **License**
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+```text
+MIT License
+
+Copyright (c) 2025 Anee Jain
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&color=%2376C7C0&size=20&lines=Empowering+Algorithm+Exploration;Building+Community+One+Step+at+a+Time;Continuing+From+Line+271" alt="Typing SVG">
 </p>
